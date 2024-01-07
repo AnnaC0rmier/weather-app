@@ -1,23 +1,40 @@
-/* Photo by <a href="https://unsplash.com/@alexlanting?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex</a> on <a href="https://unsplash.com/photos/a-night-sky-filled-with-lots-of-stars-fxrwJGMCz_g?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
-/* starry night time photo credits that will go in README*/
+
   
 /* Photo by <a href="https://unsplash.com/@mosiknife?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">mosi knife</a> on <a href="https://unsplash.com/photos/white-and-blue-cloud-formation--PVgDgKXgZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   day time photo credits */
   
 
+
+body{
+  background-image: url(./assets/mosi-knife--PVgDgKXgZA-unsplash.jpg);
+}
+
+
   h1{
-    border: 5px solid black;
-    text-align:center
+    border: 5px solid darkblue;
+    border-radius: 15px;
+    text-align:center;
+    background-color: rgba(135, 206, 250, 0.475)
   }
 
  h2{
     margin-top: 5%;
+    margin-left:5%;
  }
 
 li{
   margin: 5px;
 }
 
+.dashboard{
+font-weight:bolder;
+}
+
 .card{
   margin-left: 30px;
+  background-color: rgba(135, 206, 250, 0.475)
+}
+
+.search{
+  background-color: rgba(245, 245, 245, 0.695)
 }
