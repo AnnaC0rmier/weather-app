@@ -3,7 +3,11 @@
 /* Photo by <a href="https://unsplash.com/@mosiknife?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">mosi knife</a> on <a href="https://unsplash.com/photos/white-and-blue-cloud-formation--PVgDgKXgZA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   day time photo credits */
   
-
+  :root {
+    --light: rgba(135, 206, 250, 0.475);
+    --dark:  rgba(3, 3, 164, 0.064);
+  
+  }
 
 body{
   background-image: url(./assets/mosi-knife--PVgDgKXgZA-unsplash.jpg);
@@ -12,9 +16,12 @@ body{
 
   h1{
     border: 5px solid darkblue;
+    margin: 20px auto;  
+    padding: 10px 50px;
+    max-width: fit-content;
     border-radius: 15px;
-    text-align:center;
-    background-color: rgba(135, 206, 250, 0.475)
+    align-items: center;
+    background-color: var(--light);
   }
 
  h2{
@@ -32,9 +39,17 @@ font-weight:bolder;
 
 .card{
   margin-left: 30px;
-  background-color: rgba(135, 206, 250, 0.475)
+  background-color: var(--light);
 }
 
 .search{
-  background-color: rgba(245, 245, 245, 0.695)
+  margin-left: 10px;
 }
+
+.search-history button{
+  display:block;
+  margin: 10px;
+  background-color: var(--dark);
+  font-weight:bold;
+}
+
