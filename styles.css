@@ -33,6 +33,11 @@ li{
   margin: 5px;
 }
 
+.btn{
+  display:block;
+  margin: 10px
+}
+
 .search-form{
   margin-left: 10px;;
 }
