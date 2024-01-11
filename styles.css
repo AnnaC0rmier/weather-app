@@ -16,9 +16,12 @@ body{
 
   h1{
     border: 5px solid darkblue;
-    margin: 20px auto 70px auto;  
+    margin: 50px; 
+    margin-right: auto;
+    margin-left:auto;
     padding: 10px 50px;
-    max-width: fit-content;
+    max-width: 90%;
+    text-align: center;
     border-radius: 15px;
     align-items: center;
     background-color: var(--light);
